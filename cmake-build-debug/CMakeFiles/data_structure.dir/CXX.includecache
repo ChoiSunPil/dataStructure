@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/choisunpil/Desktop/data_structure/Stack.cpp
+Stack.h
+/Users/choisunpil/Desktop/data_structure/Stack.h
+
+/Users/choisunpil/Desktop/data_structure/Stack.h
+iostream
+-
+
+/Users/choisunpil/Desktop/data_structure/main.cpp
+iostream
+-
+cstdlib
+-
+ctime
+-
+Stack.cpp
+/Users/choisunpil/Desktop/data_structure/Stack.cpp
+
