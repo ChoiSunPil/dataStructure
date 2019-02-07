@@ -4,7 +4,10 @@
 CMakeFiles/data_structure.dir/Stack.cpp.o: ../Stack.cpp
 CMakeFiles/data_structure.dir/Stack.cpp.o: ../Stack.h
 
+CMakeFiles/data_structure.dir/coffee.cpp.o: ../coffee.cpp
+
 CMakeFiles/data_structure.dir/main.cpp.o: ../Stack.cpp
 CMakeFiles/data_structure.dir/main.cpp.o: ../Stack.h
+CMakeFiles/data_structure.dir/main.cpp.o: ../coffee.cpp
 CMakeFiles/data_structure.dir/main.cpp.o: ../main.cpp
 

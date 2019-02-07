@@ -3,4 +3,4 @@ project(data_structure)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(data_structure  main.cpp  Stack.cpp Stack.h )
+add_executable(data_structure  main.cpp  Stack.cpp Stack.h coffee.cpp)

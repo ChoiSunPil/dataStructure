@@ -150,6 +150,33 @@ Stack.cpp.s:
 	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/Stack.cpp.s
 .PHONY : Stack.cpp.s
 
+coffee.o: coffee.cpp.o
+
+.PHONY : coffee.o
+
+# target to build an object file
+coffee.cpp.o:
+	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/coffee.cpp.o
+.PHONY : coffee.cpp.o
+
+coffee.i: coffee.cpp.i
+
+.PHONY : coffee.i
+
+# target to preprocess a source file
+coffee.cpp.i:
+	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/coffee.cpp.i
+.PHONY : coffee.cpp.i
+
+coffee.s: coffee.cpp.s
+
+.PHONY : coffee.s
+
+# target to generate assembly for a file
+coffee.cpp.s:
+	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/coffee.cpp.s
+.PHONY : coffee.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -189,6 +216,9 @@ help:
 	@echo "... Stack.o"
 	@echo "... Stack.i"
 	@echo "... Stack.s"
+	@echo "... coffee.o"
+	@echo "... coffee.i"
+	@echo "... coffee.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

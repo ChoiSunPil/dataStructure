@@ -2,21 +2,16 @@
 #include <cstdlib>
 #include <ctime>
 #include "Stack.cpp"
+#include <vector>
+#include "coffee.cpp"
+
 using namespace std;
+
 int main() {
-    srand(time(NULL));
-    Stack<int> stack;
-    for(int  i = 0 ; i <30 ; i++)
-    {
-        stack.push(rand()%10);
-    }
-    for(int  i = 0 ; i <31 ; i++)
-    {
-        cout<<stack.pop()<<endl;
-    }
-    cout<<" empty: ";
-    cout<<stack.isEmpty()<<endl;
 
-
+    int array[] =  {4,2,2,5,3};
+    Coffee coffee;
+    coffee.solution(array,sizeof(array)/sizeof(int),3);
     return 0;
+
 }

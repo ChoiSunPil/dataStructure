@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/data_structure.dir/main.cpp.o"
   "CMakeFiles/data_structure.dir/Stack.cpp.o"
+  "CMakeFiles/data_structure.dir/coffee.cpp.o"
   "data_structure.pdb"
   "data_structure"
 )
